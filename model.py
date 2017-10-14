@@ -47,11 +47,12 @@ def L_layer_model(X_train, Y_train, X_test, Y_test, layers_dims, num_epochs = 15
     Implements a two-layer neural network: LINEAR->RELU->LINEAR->SOFTMAX.
 
     Arguments:
-    X -- input data, of shape (n_x, number of examples)
-    Y -- test labels represented by a numpy array (vector) of shape (n_y, number of examples)
+    X_train -- input data, of shape (n_x, number of examples)
+    Y_train -- test labels represented by a numpy array (vector) of shape (n_y, number of examples)
     layers_dims -- dimensions of the layers (n_x, n_h, n_y)
     num_iterations -- number of iterations of the optimization loop
     learning_rate -- learning rate of the gradient descent update rule
+    beta -- hyperparameter for regularization.
     num_epochs -- number of epochs of the optimization loop
     minibatch_size -- size of a minibatch
 
