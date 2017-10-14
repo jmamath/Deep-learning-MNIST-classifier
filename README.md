@@ -34,8 +34,10 @@ all of the general concepts as well as the programming techniques from Pr Andrew
 on Coursera  : 
 * Machine learning course https://www.coursera.org/learn/machine-learning
 * Deep learning specialization https://www.coursera.org/specializations/deep-learning 
+
 Otherwise their is a really exciting video from Siraj Raval
 * Intro to deep learning https://youtu.be/vOppzHpvTiQ.
+
 This web site is also worth considering http://deeplearning.net
 
 
