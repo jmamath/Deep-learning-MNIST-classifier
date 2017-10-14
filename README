@@ -1,0 +1,36 @@
+Introduction
+
+The MNIST dataset has been used for a
+while in computer vision, it consist of
+hand written digits. more infos on ...
+In this project, we are going to build a fully connected neural network with
+tensorflow (a python package for deep learning) to learn how to recognise
+those digits.
+
+Background
+
+We will use Python and several libraries such as numpy, tensorflow,
+A general knowledge of machine learning is expected, and more specifically
+deep learning techniques will be used. some are forward propagation
+backward propagation, regularization.
+For general infos there's lots of good resources. I've personally learnt
+all of the general concepts as well as the programming techniques
+in Coursera  : ----
+               ----
+But for general infos you can use Wikipedia, there's also easy to go
+videos on Youtube :
+...radj
+
+Goal
+
+Our goal is to have 97.9 % accuracy. It is possible to reach 99.9% using
+convolutional neural network. It will be our next goal.
+
+The code
+
+There is three files in this project
+.Model contains the actual model that we use to train our model
+.Utils is composed of all the relevant functions needed for Model to
+works well.
+.Load_dataset is the code use to get our data in a relevant format.
+.Tests contains units test for each functions of utils
