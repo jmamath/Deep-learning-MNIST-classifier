@@ -44,7 +44,7 @@ print ("test_y shape: " + str(test_y.shape))
 def L_layer_model(X_train, Y_train, X_test, Y_test, layers_dims, num_epochs = 1500, minibatch_size = 32, learning_rate = 0.001, beta = 0.01):
 
     """
-    Implements a two-layer neural network: LINEAR->RELU->LINEAR->SOFTMAX.
+    Implements a L-layer neural network: LINEAR->RELU->LINEAR->SOFTMAX.
 
     Arguments:
     X_train -- input data, of shape (n_x, number of examples)
